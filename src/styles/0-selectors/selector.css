@@ -1,0 +1,51 @@
+/* Selectors in CSS */
+
+/* id selector in css */
+
+#id-selector-1  
+/* start # + id_name */
+{
+    color: white;
+    background-color: black;
+}
+
+#id-selector-2
+{
+    color: black;
+    background-color: rebeccapurple;
+}
+
+/* Class Selector in css */
+
+.class-selector-1
+{
+    color: blue;
+    background-color: aqua;
+}
+
+.class-selector-2
+{
+    color: yellow;
+    background-color: violet;
+}
+
+/* tag.classname  */
+p.class-selector-3
+{
+    color: blue;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Particular Element Selector */
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+p{
+    color: black;
+    background-color: aliceblue;
+}
