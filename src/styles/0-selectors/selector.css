@@ -49,3 +49,19 @@ p{
     color: black;
     background-color: aliceblue;
 }
+
+/*   (*  star is used to universal) ===> Universal Selector */
+
+*{
+font-style: italic;
+}
+
+/* Group Selector 
+
+tag1,tag2,tag3,.....,tag-n
+{
+    Delclaration
+}
+
+*/
+
