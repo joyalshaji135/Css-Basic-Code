@@ -1,0 +1,19 @@
+/* External Css File */
+
+#id-selector-external
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+}
+.class-selector-external
+{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rebeccapurple;
+}
+#image1
+{
+    height: 500px;
+    width: 80%;
+}
