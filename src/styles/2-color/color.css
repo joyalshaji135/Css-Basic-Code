@@ -1,4 +1,7 @@
 
+p{
+    background-color: white;
+}
 
 /* RGB Color Gradiant R => 0 to 255 G => 0 to 255 B => 0 to 255 
 Vist Link : https://www.w3schools.com/css/css_colors_rgb.asp
@@ -40,4 +43,31 @@ Vist Link : https://www.w3schools.com/css/css_colors_hsl.asp
 #color-5
 {
     color: #989898;
+}
+.paragraph-color-1
+{
+    color: #782011;
+    font-size: 20px;
+}
+#paragraph-color-2
+{
+    color: hsl(255, 30%, 20%);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#paragraph-color-3
+{
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+}
+#paragraph-color-4
+{
+    color: rgba(200, 104, 89, 0.4);
+    font-size: 30pt;
+}
+#paragraph-color-5
+{
+    color: #567829;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
