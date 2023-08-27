@@ -1,36 +1,43 @@
 
 
-
-#color-1{  
-    color: rgb(57, 0, 90);
+/* RGB Color Gradiant R => 0 to 255 G => 0 to 255 B => 0 to 255 
+Vist Link : https://www.w3schools.com/css/css_colors_rgb.asp
+*/
+#color-1
+{  
+    color: rgb(57, 0, 10);
     /* color: _____ ;  ==> it is used to color the text*/   
 }
+/* RGBA Color Gradiant R => 0 to 255 G => 0 to 255 B => 0 to 255 A => 0 to 1 eg : 0.1 , 0.2 , 0.3 , .... etc
+*/
+#color-2
+{
+    color: rgb(92, 53, 171, 0.5);
+}
+/* Hex Color Gradiant 00 to ff  hexadecimal code ==> 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , a , b, c , d , e , f 
+Value Follow : 00 , 01 , 02 , 03 , 04 , 05 , 06 , 07 , 08 , 09 , 0a , 0b , 0c , 0d , 0e , 0f 
+  
+  follow  first-value + sequence-of-hexadecimal-value
+Vist Link : https://www.w3schools.com/css/css_colors_hex.asp
+*/
+#color-3
+{
+   color: #010100; 
+}
+/* HSL Color Gradiant H => Hue S => Saturation L => Lightness
 
-.color-2{
-    color: rgb(92, 53, 171);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(219, 99, 246);
+H ==> 0 to 359 , 0
+S ==> 0% to 100%
+L ==> 0% to 100%
+
+Vist Link : https://www.w3schools.com/css/css_colors_hsl.asp
+*/
+#color-4
+{
+    color: hsl(56, 100%, 46%);
 }
 
-.primary-div
+#color-5
 {
-    
-    background-color: rebeccapurple;
-    height: 200px;
-    width: 200px;
-}
-
-.secondary-div-1
-{
-    background-color: brown;
-    color: black;
-    height: 190px;
-    width: 190px;
-}
-
-.secondary-div-2
-{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    color: #989898;
 }
