@@ -11,6 +11,23 @@
         <!-- Link CSS and Logo -->
         <link rel="stylesheet" href="/src/styles/main.css">
         <link rel="shortcut icon" href="./logo/csslog.png" type="image/x-icon">
+        <style>
+            .spinner {
+               width: 56px;
+               height: 56px;
+               border-radius: 50%;
+               border: 9px solid;
+               border-color: #dbdcef;
+               border-right-color: #850476;
+               animation: spinner-d3wgkg 1s infinite linear;
+            }
+            
+            @keyframes spinner-d3wgkg {
+               to {
+                  transform: rotate(1turn);
+               }
+            }
+            </style>
     </head>
 <body>
     <h1 class="heading-background-1">Learn New Thinks 1</h1>
@@ -48,5 +65,8 @@
         of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing 
         packages and web page
     </p>
+
+
+    <div class="spinner"></div>
 </body>
 </html>

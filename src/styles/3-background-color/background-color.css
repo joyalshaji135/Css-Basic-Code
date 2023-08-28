@@ -17,8 +17,8 @@ Background Propertys in Css
 } */
 
 /* 
-1) background-color ==> color the background of the particluar property
-*/
+1) background-color: _______ ; ==> color the background of the particluar property
+*/ 
 .heading-background-1
 {
     color: hsl(200, 58%, 40%);
@@ -26,6 +26,10 @@ Background Propertys in Css
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* 
+2) background-image: url(image path define);  ==> add the background image
+*/
 
 #paragraph-background-1
 {
@@ -40,6 +44,41 @@ h1.heading-background-1
 }
 p#paragraph-background-1
 {
-    opacity: 0.3;
+    opacity: 1;
 }
 
+
+/* 
+3) background-repeat: ______ ;    repeat-x ==> horiszontaly repeating Elements only body background image 
+& repeat-y ==> verticaly repeating only body background image 
+*/
+
+h1.heading-background-2
+{
+    color: rgba(240, 40, 40, 0.741);
+    background-color: hsl(355, 20%, 50%);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background: #474bff;
+background: -webkit-linear-gradient(239deg, #474bff 0%, #bc48ff 100%);
+background: linear-gradient(239deg, #474bff 0%, #bc48ff 100%);
+    /* background-repeat: no-repeat;  ==> it's not repeat*/
+    /* background-repeat: repeat-x;  ==> repeat x axis*/
+    /* background-repeat: repeat-y;  ==> repeat y axis*/
+    /* background-repeat: repeat;  ==> repeat x and y axis*/
+}
+
+#paragraph-background-2
+{
+    color: rgb(0, 0, 255);
+    background-image: url(/build/logo/csslog.png);
+    opacity: 0.6;
+    font-size: 80px;
+    background-repeat: repeat-x;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*  */
