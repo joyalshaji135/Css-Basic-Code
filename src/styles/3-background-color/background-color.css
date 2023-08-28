@@ -133,3 +133,38 @@ left bottom
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-repeat: no-repeat;
 }
+
+#paragraph-background-4
+{
+    color: darkslategrey;
+    opacity: 1;
+    background-image: url(/build/images/\(15\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* 
+
+ShortHand Method in Background
+
+background: background-color-value background-image-value background-repeat-value background-attachment-value background-position-value
+
+*/
+
+.heading-background-5
+{
+    color: rgba(10, 236, 100, 0.8);
+    /* ShortHand Model */
+    background: #ff101a url(/build/images/\(7\).jpg) no-repeat fixed;
+    font-size: 100px
+}
+
+#paragraph-background-5
+{
+    color: #ff101a;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(20, 36, 230) url(/build/images/\(26\).jpg) no-repeat scroll;
+
+}
