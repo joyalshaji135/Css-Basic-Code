@@ -62,9 +62,9 @@ h1.heading-background-2
 
 }
 body{
-    background: #474bff;
-background: -webkit-linear-gradient(239deg, #474bff 0%, #bc48ff 100%);
-background: linear-gradient(239deg, #474bff 0%, #bc48ff 100%);
+    background-color: aqua;
+    background-image: url(/build/images/\(11\).jpg);
+    background-repeat: no-repeat;
     /* background-repeat: no-repeat;  ==> it's not repeat*/
     /* background-repeat: repeat-x;  ==> repeat x axis*/
     /* background-repeat: repeat-y;  ==> repeat y axis*/
@@ -80,5 +80,56 @@ background: linear-gradient(239deg, #474bff 0%, #bc48ff 100%);
     background-repeat: repeat-x;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/*  
 
-/*  */
+4) background-attachment: ________ ;
+
+fixed ==> Fix the position of the Element
+scroll ==> scroll the position of the Element
+
+*/
+.heading-background-3
+{
+    color: rgb(20, 70, 19);
+    font-size: 100px;
+    background-image: url(/build/images/\(5\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+body
+{
+    background-attachment: scroll;
+}
+
+/* 
+
+5) background-position: ______ ; 
+right top
+right bottom
+left top
+left bottom 
+
+*/
+
+#paragraph-background-3
+{
+    color: hsl(246, 87%, 38%);
+    font-size: 70px;
+    background-image: url(/build/images/\(18\).jpg);
+    font-family: 'Courier New', Courier, monospace;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.heading-background-4
+{
+    color: pink;
+    opacity: 0.7;
+    background-image: url(/build/images/\(23\).jpg);
+    background-size: 30%;
+    background-position: right top;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-repeat: no-repeat;
+}
