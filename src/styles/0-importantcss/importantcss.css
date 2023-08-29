@@ -1,0 +1,48 @@
+/* Add to Background Add Fix Padding and Margin */
+#main-body
+{
+    background: #5856dc;
+    margin: 0;
+    padding: 0;
+}
+#header-main
+{
+    background: #0b0a4a no-repeat fixed;
+    padding-bottom: 140px;
+    margin: 0;
+}
+header .header-logo-left img
+{
+   width: 150px;
+   height: 150px;
+   float: left;
+   padding-left: 10px; 
+
+}
+header .header-content-right
+{
+    padding-top: 30px;
+    padding-right: 60px ;
+    float: right;
+}
+/* .header-content-right
+{
+    
+} */
+.sub-content
+{
+    background-color: black;
+    display: inline;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

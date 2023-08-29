@@ -3,7 +3,7 @@
 /* id selector in css */
 
 #id-selector-1  
-/* start # + id_name */
+/* start # + id_name  ==> id is unique*/
 {
     color: white;
     background-color: black;
@@ -15,7 +15,7 @@
     background-color: rebeccapurple;
 }
 
-/* Class Selector in css */
+/* Class Selector in css  ==> class is a universal */
 
 .class-selector-1
 {
