@@ -2,21 +2,23 @@
 #main-body
 {
     background: #5856dc;
+    background-attachment: scroll;
     margin: 0;
     padding: 0;
 }
 #header-main
 {
-    background: #0b0a4a no-repeat fixed;
+    background: #0b0a4a no-repeat;
+    background-attachment: fixed;
     padding-bottom: 140px;
     margin: 0;
 }
-header .header-logo-left img
+header .header-logo-left h1
 {
-   width: 150px;
-   height: 150px;
    float: left;
+   font-size: 35px;
    padding-left: 10px; 
+   padding-top: 20px;
 
 }
 header .header-content-right
@@ -45,4 +47,16 @@ li a
     text-decoration: none;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.main-content
+{
+    font-size: 30px;
+    display: inline;
+}
+
+.content-1 p
+{
+    font-family: 'Courier New', Courier, monospace;
+    
 }
