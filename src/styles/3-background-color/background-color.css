@@ -61,15 +61,7 @@ h1.heading-background-2
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-body{
-    background-color: aqua;
-    background-image: url(/build/images/\(11\).jpg);
-    background-repeat: no-repeat;
-    /* background-repeat: no-repeat;  ==> it's not repeat*/
-    /* background-repeat: repeat-x;  ==> repeat x axis*/
-    /* background-repeat: repeat-y;  ==> repeat y axis*/
-    /* background-repeat: repeat;  ==> repeat x and y axis*/
-}
+
 
 #paragraph-background-2
 {

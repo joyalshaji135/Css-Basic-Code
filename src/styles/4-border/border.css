@@ -4,5 +4,45 @@ Border Css Propertys
 
 #background
 {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Border Styles
+
+1) dotted
+2) dashed
+3) groove
+4) ridge
+5) inset
+6) outset
+7) none
+8) hidden
+
+*/
+
+.border-style-1
+{
+    color: red;
+    border-style: dashed;
+    background-color: aquamarine;
+}
+
+.border-style-2
+{
+    color: honeydew;
+    background-color: blueviolet;
+    border-style: dotted;
+}
+
+.border-style-3
+{
+    color: chartreuse;
+    border-style: ridge;
+    background-color: beige;
+}
+
+.border-style-4
+{
+    border-style: inset;
+    border-color: red;
 }
