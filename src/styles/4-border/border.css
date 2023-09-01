@@ -2,8 +2,7 @@
 Border Css Propertys
 */
 
-#background
-{
+#background {
     background-color: rgb(255, 255, 255);
 }
 
@@ -18,31 +17,119 @@ Border Css Propertys
 7) none
 8) hidden
 
+Syntax :  border-style: _______ ;
+
 */
 
-.border-style-1
-{
+.border-style-1 {
     color: red;
     border-style: dashed;
     background-color: aquamarine;
 }
 
-.border-style-2
-{
+.border-style-2 {
     color: honeydew;
     background-color: blueviolet;
     border-style: dotted;
 }
 
-.border-style-3
-{
+.border-style-3 {
     color: chartreuse;
     border-style: ridge;
     background-color: beige;
 }
 
-.border-style-4
-{
+/* 
+border-color
+
+syntax
+
+border-color: gradiants;
+
+*/
+.border-style-4 {
     border-style: inset;
     border-color: red;
+}
+
+/* 
+border-width
+
+syntax
+
+border-width: Values;
+*/
+.border-style-5 {
+    border-style: groove;
+    border-color: pink;
+    /*
+        case 1: border-width: top right bottom left;
+    */
+    border-width: 70px 10px 60px 10px;
+}
+
+.border-style-6 {
+    border-style: groove;
+    border-color: red;
+    /* 
+        case 2: border-width: (top+bottom/2) (right+left/2);
+    */
+    border-width: 65px 10px;
+    color: violet;
+}
+
+.border-style-7 {
+    border-color: aqua;
+    border-style: double;
+    /* 
+        case 3: border-width: (t=r=b=l)total pixels ;
+    */
+    border-width: 10px;
+}
+/* 
+==> border style particular side
+
+1) border-top-style (border-top)
+2) border-bottom-style (border-bottom)
+3) border-left-style (border-left)
+4) border-right-style (border-right)
+
+==> border rounded
+
+border-radius: _____ px;
+
+*/
+.border-style-8 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    border-left-style: inset;
+    border-right: inset;
+    border-color: rebeccapurple;
+    border-width: 30px;
+    border-radius: 20px;
+    background-color: rgb(140, 110, 170);
+}
+
+/* 
+    Border Shorthand Form
+
+    border: (border-width value)  (border-style value) (border-color value);
+*/
+.heading-border-1
+{
+    border: 10px dashed blue;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: aquamarine;
+    background-color: black;
+    border-left-color: rebeccapurple;
+}
+
+#paragraph-border-3
+{
+    
 }
