@@ -25,18 +25,27 @@ Syntax :  border-style: _______ ;
     color: red;
     border-style: dashed;
     background-color: aquamarine;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .border-style-2 {
     color: honeydew;
     background-color: blueviolet;
     border-style: dotted;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .border-style-3 {
     color: chartreuse;
     border-style: ridge;
     background-color: beige;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 /* 
@@ -50,6 +59,9 @@ border-color: gradiants;
 .border-style-4 {
     border-style: inset;
     border-color: red;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 /* 
@@ -60,6 +72,9 @@ syntax
 border-width: Values;
 */
 .border-style-5 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     border-style: groove;
     border-color: pink;
     /*
@@ -76,6 +91,9 @@ border-width: Values;
     */
     border-width: 65px 10px;
     color: violet;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .border-style-7 {
@@ -85,6 +103,9 @@ border-width: Values;
         case 3: border-width: (t=r=b=l)total pixels ;
     */
     border-width: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 /* 
 ==> border style particular side
@@ -129,7 +150,18 @@ border-radius: _____ px;
     border-left-color: rebeccapurple;
 }
 
-#paragraph-border-3
+#paragraph-border-1
 {
-    
+    border: 30px groove royalblue;
+    border-radius: 10px;
+    border-right-color: coral;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: bisque;
 }
+
+/* 
+continu to Practice next day
+*/
