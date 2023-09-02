@@ -1,5 +1,4 @@
-.body
-{
+.body {
     margin: 0px;
     padding: 0px;
 }
@@ -16,8 +15,7 @@ Margin ->     ________________
 
 */
 /* CASE 1: */
-.case-1
-{
+.case-1 {
     background-color: red;
     width: 200px;
     height: 200px;
@@ -28,13 +26,13 @@ Margin ->     ________________
     margin-left: 100px;
     /* 
     margin-left: size ;  ← 
-    */ 
+    */
     margin-bottom: 100px;
     /* 
     margin-bottom: size ;  ↓
      */
     /* 
-    margin-right: 100px;    ==> it's not work
+    margin-right: 100px;    ==> it's work
      
     but why  => no Elements 
     
@@ -43,21 +41,19 @@ Margin ->     ________________
 
 /* CASE 2: */
 
-.case-2
-{
+.case-2 {
     background-color: blue;
     height: 200px;
     width: 200px;
     margin-top: 100px;
     margin-left: 100px;
     margin-bottom: 200px;
-    /* 
-    margin-right: 100px;  ==> it's not work
-     */
-    
+    margin-right: 100px;
+
+
 }
-.case-2-1
-{
+
+.case-2-1 {
     background-color: black;
     height: 200px;
     width: 200px;
@@ -65,7 +61,7 @@ Margin ->     ________________
     margin-left: 100px;
     margin-bottom: 200px;
     /*
-     margin-right: 100px; ==> it's not work
+     margin-right: 100px; ==> it's  work
      */
 }
 
@@ -73,8 +69,7 @@ Margin ->     ________________
 CASE 3:
 */
 
-.parent-div
-{
+.parent-div {
     width: 300px;
     height: 300px;
     background-color: chocolate;
@@ -85,11 +80,92 @@ CASE 3:
     padding-left: 100px;
     padding-right: 100px; */
 }
-.parent-div .child-div
-{
-    width: 150px;
-    height: 150px;
+
+.parent-div .child-div {
+    width: 100px;
+    height: 100px;
     background-color: blueviolet;
     border-radius: 30px;
-    margin-left: 75px;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.parent .child-1 {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.child-1 .child-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 30, 54);
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 700px;
+    margin-right: 300px;
+    border-radius: 30px;
+}
+
+/*
+ case 1 : margin: (margin-top) (margin-right) (margin-bottom) (margin-left);
+ */
+.shorthand-1 {
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+    margin: 10px 30px 29px 30px;
+    border-radius: 30px;
+}
+
+/* 
+case 2 : margin: (margin-top + margin-bottom) (margin-right + margin-left);
+*/
+.shorthand-2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 70px 30px;
+    border-radius: 30px;
+}
+
+/* 
+case 3 : margin: (margin-top = margin-right = margin-bottom = margin-left);
+*/
+
+.shorthand-3 {
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    margin: 40px;
+}
+
+/* 
+case 4: margin using auto
+*/
+
+.shorthand-4
+{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.shorthand-5
+{
+
 }
