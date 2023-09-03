@@ -162,7 +162,7 @@ case 4: margin using auto
     height: 200px;
     background-color: tomato;
     border-radius: 30px;
-    margin: auto;
+    margin: 40px 20px auto auto;
 }
 
 .shorthand-5
