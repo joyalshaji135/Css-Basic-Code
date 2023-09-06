@@ -53,3 +53,19 @@ Types of Padding
     margin: 30px 40px;
     border-radius: 20px;
 }
+
+/* 
+Padding Values Arange
+
+padding: top left bottom right;
+*/
+
+.parent-3
+{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px 40px 20px 60px;
+    
+}
