@@ -2,6 +2,14 @@
 {
     background-color: white;
 }
+
+/* 
+height and width in css
+
+height: px;
+width: px;
+
+*/
 .class-1
 {
     background-color: yellow;
@@ -21,3 +29,37 @@
     font-weight: bold;
 }
 
+.class-2
+{
+    background-color: darkgoldenrod;
+    max-width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-top: 30px;    
+}
+
+.class-2 .para-2
+{
+    color: red;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.class-3
+{
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+.class-3 .para-3
+{
+    color: tomato;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
