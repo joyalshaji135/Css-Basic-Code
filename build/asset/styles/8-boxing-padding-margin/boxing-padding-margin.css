@@ -1,0 +1,52 @@
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+} */
+/* Padding and Margin Combination */
+.box-parent-1
+{
+    width: 100%;
+    height: 120px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.box-parent-1 .sub-parent-1
+{
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 30px;
+    
+    /* 
+    margin-left and margin-right are working
+    */
+}
+
+.sub-parent-1 .sub-child-1
+{
+    width: 25%;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.sub-parent-1 .sub-child-2
+{
+    width: 15%;
+    height: 15px;
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
