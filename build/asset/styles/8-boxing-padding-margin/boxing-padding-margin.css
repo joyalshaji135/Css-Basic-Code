@@ -2,6 +2,7 @@
 {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* 
@@ -137,4 +138,32 @@
     height: 333.3px;
     margin: 0px 0px 0px auto;
     border-radius: 10px;
+}
+
+/* 
+Box sizing 
+
+box sizing is a universal property
+
+box-sizing: border-box;
+
+*/
+
+.box-sizing-1
+{
+    width: 100px;
+    height: 150px;
+    padding: 50px 50px;
+    background-color: blueviolet;
+    margin-left: 20px;
+}
+
+.box-sizing-2
+{
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 120px 100px;
 }
