@@ -1,8 +1,20 @@
-/* *
+*
 {
     margin: 0px;
     padding: 0px;
-} */
+}
+
+/* 
+
+320px (width)
++ 20px (left + right padding)
++ 10px (left + right border)
++ 0px (left + right margin)
+= 350px 
+
+*/
+
+
 /* Padding and Margin Combination */
 .box-parent-1
 {
@@ -23,10 +35,6 @@
     margin-left: 30px;
     margin-top: 20px;
     padding: 30px;
-    
-    /* 
-    margin-left and margin-right are working
-    */
 }
 
 .sub-parent-1 .sub-child-1
@@ -79,7 +87,7 @@
     margin-top: 10px;
     border-radius: 10px;
     padding-left: 80px;
-    border-color: black;
+    border: none;
     padding-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
@@ -95,4 +103,38 @@
     font-style: normal;
     height: 30px;
     border-radius: 20px;    
+}
+
+.box-1
+{
+    background-color: rgb(163, 159, 159);
+    height: 1000px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.box-1 .box-child-1
+{
+    background-color: rebeccapurple;
+    width: 33.3%;
+    height: 333.3px;
+    border-radius: 10px;
+}
+
+.box-1 .box-child-2
+{
+    background-color: green;
+    width: 33.3%;
+    height: 333.3px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.box-1 .box-child-3
+{
+    background-color: blue;
+    width: 33.3%;
+    height: 333.3px;
+    margin: 0px 0px 0px auto;
+    border-radius: 10px;
 }
