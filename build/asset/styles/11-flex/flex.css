@@ -1,0 +1,32 @@
+.flex-main
+{
+    border-style: solid;
+    border-color: grey;
+    border-width: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-main .flex-child-1
+{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.flex-main .flex-child-2
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.flex-main .flex-child-3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+}
