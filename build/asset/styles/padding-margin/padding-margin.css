@@ -10,3 +10,79 @@
 
 /* Project Design */
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    background-color: lightblue;
+}
+
+.wrapper
+{
+    width: 600px;
+    margin: 40px auto;
+    padding: 50px 0px;
+}
+
+.wrapper .image-content img
+{
+    height: 500px;
+    width: 600px;
+    border-top-right-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+.wrapper .content-pad h1
+{
+    margin: 0px 0px 8px;
+    /* Colapus in margin  
+    
+    margin-top: 15px
+    margin-right: 0px :margin-left
+    margin-bottom: 8px or 0px
+    */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.wrapper .content-pad h4
+{
+    margin: 8px 0px 15px;
+    /* Colapus in margin  
+    
+    margin-top: 8px
+    margin-right: 0px :margin-left
+    margin-bottom: 15px
+
+    h1 bottom : 8 
+    and             ==> it is Colapus
+    h4 bottom : 8
+
+    */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.wrapper .content-pad p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.content-pad
+{
+    background-color: white;
+    padding: 30px;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-style: double;
+    border-color: black;   
+}
