@@ -9,8 +9,41 @@
 
 .container
 {
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    height: 100vh;
     display: flex;
 }
+
+/* 
+Flex-Box 
+
+A)  display: flex;    =>    -------------------
+
+B)  flex-direction: 1) column 2) row 3) column-reverse 4) row-reverse
+
+C)  algin-items: 
+
+            1) Beginning
+
+            i) start
+            ii) self-start
+            iii) flex-start
+            iv) first-baseline
+
+            2) Ending
+
+            i) end
+            ii) self-end
+            iii) flex-end
+            iv) last-baseline
+
+            3) Center
+
+            i) center
+
+*/
 .flex-main-1
 {
     border-style: solid;
@@ -44,7 +77,30 @@
     height: 100px;
     background-color: rebeccapurple;
 }
+/* 
 
+D)  justify-content:
+
+                1) Beginning   [property]-------------------
+                
+                i) start
+                ii) left
+                iii) flex-start
+                
+                2) Ending       -------------------[property]
+                
+                i) end         
+                ii) right
+                iii) flex-end 
+                
+                3) center       -----------[property]-----------
+                
+                i) center
+                ii) space-around    --[prop]----[prop]----[prop]--
+                iii) space-between    [prop]----[prop]----[prop]
+                iv) space-evenly    ---[prop]---[prop]---[prop]---   
+
+*/
 .flex-main-2
 {
     border-style: solid;
@@ -54,9 +110,9 @@
     width: 50vh;
     background-color: azure;
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
 
 }
 
@@ -81,3 +137,57 @@
     background-color: tomato;
 }
 
+/* --------------------------------------Another Flex--------------------------------------------- */
+
+/* 
+
+E) flex-wrap: 
+
+1) Flex Wrap ==> Responsive type
+
+F) align-content:
+
+1) Beginning
+           
+
+*/
+
+.flex-main-content
+{
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.flex-main-content .flex-1
+{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.flex-main-content .flex-2
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.flex-main-content .flex-3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+}
+
+.flex-main-content .flex-4
+{
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+}
