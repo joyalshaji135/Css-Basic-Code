@@ -1,32 +1,83 @@
-.flex-main
+/* Universal Css Property */
+
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container
+{
+    display: flex;
+}
+.flex-main-1
 {
     border-style: solid;
     border-color: grey;
     border-width: 20px;
-    height: 100vh;
+    height: 50vh;
+    width: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
-.flex-main .flex-child-1
+.flex-main-1 .flex-child-1-0
 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: orange;
 }
 
-.flex-main .flex-child-2
+.flex-main-1 .flex-child-1-1
 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: green;
 }
 
-.flex-main .flex-child-3
+.flex-main-1 .flex-child-1-2
 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: rebeccapurple;
 }
+
+.flex-main-2
+{
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
+    height: 50vh;
+    width: 50vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+
+}
+
+.flex-main-2 .flex-child-2-0
+{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.flex-main-2 .flex-child-2-1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 125, 0);
+}
+
+.flex-main-2 .flex-child-2-2
+{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
