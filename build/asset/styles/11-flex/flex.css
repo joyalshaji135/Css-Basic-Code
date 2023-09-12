@@ -161,7 +161,16 @@ F) align-content:
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    /* 
+    
+    flex-flow: column wrap;    ==> Shorthand property in flex
 
+    1) flex-direction 
+    2) flex-warp 
+
+    flex-flow: (flex-direction) (flex-wrap);
+    
+    */
 }
 
 .flex-main-content .flex-1
@@ -190,4 +199,76 @@ F) align-content:
     width: 200px;
     height: 200px;
     background-color: slateblue;
+}
+
+
+/* -------------------------------------------------Flex Child Property--------------------------------------------------------------- */
+
+
+/* 
+
+order property in css
+
+order: number;
+
+item ordering
+
+
+*/
+.flex-child-property
+{
+    border: 20px solid green;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    /* 
+    child using align-self property is not work
+    */
+}
+
+.flex-child-property .child-flex-1
+{
+    /* width: 200px; */
+    height: 200px;
+    background-color: blue;
+    order: 3;
+    flex: 1 1 300px; 
+    align-self: center; 
+    /* 
+    Shorthand Property in child flex
+
+    flex: (flex-grow) (flex-shrink) (flex-basis);
+
+    */
+}
+
+.flex-child-property .child-flex-2
+{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    order: 2;
+    flex-grow: 1;
+}
+
+.flex-child-property .child-flex-3
+{
+    width: 200px;
+    height: 200px;
+    background-color: sienna;
+    order: 4;
+    flex-grow: 3;
+    
+}
+
+.flex-child-property .child-flex-4
+{
+    /* width: 200px; */
+    height: 200px;
+    background-color: darkmagenta;
+    order: 1;
+    flex-basis: 200px;
 }
