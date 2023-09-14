@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white
+    ;
+}
+
+.logo img
+{
+    height: 200px;
+    width: 200px;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar
+{
+    display: flex;
+    justify-content: start;
+}
+
+.navbar li a
+{
+    padding-left: 10px;
+}
+section img
+{
+    height: 650px;
+    width: 620px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+section ul,li,img
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+

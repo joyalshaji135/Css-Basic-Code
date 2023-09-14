@@ -213,7 +213,21 @@ order: number;
 
 item ordering
 
+flex-grow ==> it is used to extra space avoiding for flex
 
+flex-grow: number; 
+n   ^
+    |
+    |
+    |
+    |
+1   |
+
+algin-self: 
+
+
+
+flex-basis: px;  ==> it is used to responsive align 
 */
 .flex-child-property
 {
