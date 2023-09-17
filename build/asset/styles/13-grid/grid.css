@@ -1,0 +1,81 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* 
+
+GRID CONCEPT
+1)
+
+grid-template-rows: 1-row-measure 2-row-measure 3-row-measure ;
+
+OR
+
+grid-template-rows: repeat(row-no:, row-measure)
+
+
+
+grid-template-columns: 1-column-measure 2-column-measure 3-column-measure ;
+
+OR
+
+grid-template-columns: repeat(column-no:, column-measure)
+
+2)
+
+grid-row-gap: gap-measure px;
+
+grid-column-gap: gap-measure px;
+
+OR
+
+grid-gap: (row==column) px;
+
+
+*/
+.wrapper1
+{
+    background-color: grey;
+    border-style: solid;
+    border-color: blue;
+    height: 35vh;
+    width: 350px;  
+    border-width: 7px;
+    display: grid;
+    
+    /* grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px; */
+    
+    /* OR */
+    
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px; */
+    
+    /* OR */
+    
+    grid-gap: 10px;
+    grid-auto-rows: 300px;
+}
+
+.wrapper1 .item1
+{
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.item1 p
+{
+    margin-top: 40px;
+}
+
+/*  */
